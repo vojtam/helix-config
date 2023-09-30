@@ -1,0 +1,7 @@
+[[language]]
+name = "r"
+auto-format = true
+comment-token = "#"
+file-types = ["R"]
+indent = { tab-width = 2, unit = "  " }
+language-server = { command = "/usr/local/bin/R", args = ["--slave", "-e", "languageserver::run()"]}
